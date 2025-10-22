@@ -1,29 +1,4 @@
-# 物品复活（Revive Items）
-
-一个帮助大学生**在线赠送 / 出售闲置物品**的简单程序。  
-第一版本实现了 **添加物品、删除物品、显示物品列表、查找物品** 等基础功能，可通过命令行运行，也可选择启动简易 GUI（可选）。
-
----
-
-## ✨ 功能特点
-- **添加物品**：输入物品名称、描述及联系人信息，将信息保存到本地数据库（JSON/SQLite）。
-- **删除物品**：根据物品 ID 或名称删除指定记录。
-- **显示物品列表**：列出当前所有物品的完整信息。
-- **查找物品**：按名称关键字进行模糊查询。
-- **数据持久化**：退出程序后数据仍会保留。
-
----
-
-## 📂 项目结构
-\begin{verbatim}
-revive-items/
-│
-├─ revive.py # 命令行主程序入口
-├─ gui.py # 图形化界面入口（可选）
-├─ data.json # 数据存储文件（如使用JSON）
-├─ utils/
-│ └─ db.py # 数据读写封装
-└─ # ReviveObject - 物品复活平台
+# ReviveObject - 物品复活平台
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Gradio](https://img.shields.io/badge/Gradio-UI-orange.svg)](https://gradio.app/)
@@ -199,7 +174,6 @@ python test_User.py
 
 ---
 
-*让闲置物品重获新生，共建环保共享社区！* 🌱 # 项目说明
-\end{verbatim}
+*让闲置物品重获新生，共建环保共享社区！* 🌱
 
 
